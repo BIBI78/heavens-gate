@@ -41,11 +41,30 @@ h1, h2{
     font-size: 110%;
     letter-spacing: 4px;
     float: center;
+    text-align: center;
+}
+
+#menu li {
+
+        display: inline;
+        text-decoration: none;
+        margin-right: 24px;  
 }
 
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid black;
+}
 
 
+.active{
+    border-bottom: 1px solid black;
+}
 
 
 /*
