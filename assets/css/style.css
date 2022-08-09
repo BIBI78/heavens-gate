@@ -58,7 +58,7 @@ h1, h2{
 }
 
 #menu a:hover{
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid rgba(135,206,250,.7);
 }
 
 
@@ -93,6 +93,7 @@ h1, h2{
     width: 100%;
     background-image: url(../images/main.jpg) ;
      background-repeat: no-repeat; 
+     margin-top: 10px;
 
      /* animation bs */
      animation-name: main-zoom;
@@ -135,3 +136,26 @@ h1, h2{
 }
 
 
+#ethos{
+    height:600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float:left;
+    background-color: rgb(47, 255, 71);
+}
+
+/*#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float:right;
+}
+*/
+#center-about{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgb(139, 0, 120);
+}
