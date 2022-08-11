@@ -210,7 +210,7 @@ hr{
 }
 
 
-#center-image-container {
+/* #center-image-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -219,10 +219,48 @@ hr{
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-}
+} */
 
-#center-image {
-    background: url("assets/images/sym") no-repeat center center;
+/* #center-image {
+    background: url("/assets/images/symbol.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+} */
+
+
+/* #center-about{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: white;
+  
+} */
+
+
+/* #circle-container2 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}  */
+
+/* #circle-cover-bg2 {
+    background: url(../images/symbol.png) no-repeat center center;
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+} */
+
+
+
+#photos-right{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
 }
+
+
