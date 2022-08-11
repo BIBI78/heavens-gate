@@ -263,4 +263,21 @@ hr{
     float: right;
 }
 
+/* sign up */
 
+#cover-text-signup{
+    font-size: 50;
+    font-family: Cairo, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 900px;
+    height: 200px;
+    padding-top:40px;
+    background-color: rgba(135,206,250,.7);
+
+
+    bottom: 30px;
+    left:150px;
+    position: absolute;
+}
