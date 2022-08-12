@@ -75,7 +75,7 @@ h1, h2{
  /* main image bs */
 
  #main-image-outer{
-    height: 600px;
+    height: 420px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -152,9 +152,17 @@ h1, h2{
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: white;
+    
+    background-color: rgba(135,206,250,.7)
 }
 
+.center-about-heading{
+    width:60%;
+    
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50PX;
+}
 hr{
     border-top: 1px solid black;
     width: 100%;
@@ -176,11 +184,6 @@ hr{
 
 
 
-#circle-cover-bg {
-    background: url('../images/0.jpeg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
 
 
 
@@ -195,35 +198,46 @@ hr{
 
 
 
-
-
-#photos-right{
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
 
 /* sign up */
 
-#cover-text-signup{
-    font-size: 50;
-    font-family: Cairo, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
 
-    width: 900px;
-    height: 200px;
-    padding-top:40px;
-    background-color: rgba(135,206,250,.7);
-
-
-    bottom: 30px;
-    left:150px;
-    position: absolute;
-}
 
 footer {
+    font-family: Cairo, sans-serif;
+    color: black;
+    font-size: 100%;
+    letter-spacing: 4px;
+    /*float: center; */
+    text-align: center;
     
-    color: blueviolet;
+    
+}
+
+
+.w3-content w3-display-container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.w3-button w3-black w3-display-left{
+    text-align: center;
+  
+
+}
+
+
+.w3-button w3-black w3-display-right{
+    text-align: center;
+    
+
+}
+
+.mySlides{
+    width:  50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
