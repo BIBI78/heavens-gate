@@ -192,6 +192,9 @@ hr{
     line-height: 20px;
     clear: both;
     margin-bottom: 50PX;
+    text-transform: uppercase;
+    
+    
 }
 
 .right-about-heading{
