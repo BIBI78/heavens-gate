@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .mySlides {display:none;}
+        </style>
+        <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html">
+            <h1 id="logo">Heavens Gate</h1>
+            </a>
+            
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="gallery.html"  class="active">Gallery</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    
+                </ul>
+            </nav>
+    
+        
+    </header>
+    <section id ="main-image-outer">
+        <div id="space">
+            space
+        </div>
+        
+        <div id="main-image">
+
+        </div>
+
+        <div id = "cover-text">
+            <h2>GALLERY</h2>
+            <h3>Paris,France</h3>
+        </div>
+    </section id="photos">
+
+    <h2 class="w3-center">Manual Slideshow</h2>
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides"  src="assets/images/paris.webp" style="width:100%"alt="image of eiffel tower">
+        <img class="mySlides"  src="assets/images/guru.jpg"  style="width:100%" alt="indian guru">
+        <img class="mySlides"  src="assets/images/building.jpg" style="width:100%" alt="typical parisien building">
+        <img class="mySlides"  src="assets/images/med2.jpg" style="width:100%" alt="">
+        <img class="mySlides"  src="assets/images/jardin.jpg" style="width:100%" alt="">
+        <img class="mySlides"  src="assets/images/med1.jpg" style="width:100%" alt="">
+        <img class="mySlides"  src="assets/images/symbol.png" style="width:100%" alt="">
+        
+
+
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    
+
+
+
+
+    <footer>
+        social links go here
+    </footer>
+    
+</body>
+</html>
