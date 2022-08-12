@@ -160,9 +160,12 @@ h1, h2{
 #center-about{
     padding-top: 30px;
     width: 33%;
+    height: 33%;
     margin: 0 auto;
+    text-align: center;
     
     background-color: rgba(135,206,250,.7)
+    
 }
 
 .center-about-heading{
@@ -170,6 +173,7 @@ h1, h2{
     line-height: 20px;
     clear: both;
     margin-bottom: 50PX;
+    text-align: center;
 }
 
 
@@ -259,3 +263,18 @@ footer {
     margin-right: 33%;
    
 }
+
+#signup-form{
+    font-family: Cairo, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+   
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+  }
